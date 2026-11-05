@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex, nofollow">
+<!-- wc-direction: look=Chickamauga Dam powerhouse painted-metal name band read against a galvanized Pittsburgh seam; hero=full-viewport filter photograph with the name set on a pale type plate across the lower left; motion=the hero photograph seats 80px horizontally once on load, like a filter sliding into its rack, and the same seat plays once for the visit prints; why=Breathe Easy's own line is "Air filters made simple" from a Southeast Tennessee base, and its duct cleaning service handles the sheet-metal runs that the filter never reaches. -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Breathe Eazy Air Duct Cleaning LLC | Air filters made simple, Southeast Tennessee</title>
+<meta name="description" content="Residential air duct cleaning in Southeast Tennessee and furnace filter subscriptions shipped nationwide from Breathe Easy Filters. Call (815) 260-4741.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ground:#D5D8D6;
+  --ink:#1E3A4C;
+  --plate:#F4F6F5;
+  --control:#2F6F8F;
+  --seam:#8A9190;
+  --display:"Jost", "DM Sans", sans-serif;
+  --body:"DM Sans", "Jost", sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;
+  background:var(--ground);
+  color:var(--ink);
+  font-family:var(--body);
+  font-size:1.0625rem;
+  line-height:1.6;
+  overflow-x:hidden;
+}
+img{display:block;max-width:100%}
+a{color:inherit}
+a:focus-visible{outline:3px solid var(--control);outline-offset:3px}
+h1,h2,h3{font-family:var(--display);font-weight:500;line-height:1.02;margin:0;letter-spacing:-0.01em}
+p{margin:0}
+.skip{position:absolute;left:-999px;top:0;background:var(--plate);padding:.6rem 1rem;z-index:20}
+.skip:focus{left:1rem;top:1rem}
+
+/* photo containers */
+.ph{position:relative;overflow:hidden;margin:0;background:var(--seam)}
+.ph img{width:100%;height:100%;object-fit:cover}
+
+/* ---------- header ---------- */
+.site-head{
+  position:absolute;inset:0 0 auto 0;z-index:5;
+  display:flex;justify-content:space-between;align-items:flex-start;
+  padding:1rem clamp(1rem,3vw,2.5rem);
+}
+.site-head .mark{display:block;background:var(--plate);padding:6px}
+.site-head .call-text{
+  font-family:var(--body);font-weight:500;font-size:.98rem;
+  background:var(--plate);padding:.55rem .85rem;text-decoration:none;
+}
+.site-head .call-text:hover{text-decoration:underline}
+
+/* ---------- hero ---------- */
+.hero{position:relative;min-height:100svh;min-height:100vh;overflow:hidden}
+.hero-photo{position:absolute;inset:0;background:var(--seam)}
+.hero-photo img{
+  position:absolute;top:0;left:-80px;
+  width:calc(100% + 80px);height:100%;
+  object-fit:cover;object-position:center;
+  animation:seat .7s cubic-bezier(.22,.8,.3,1) both;
+}
+@keyframes seat{
+  from{transform:translateX(80px)}
+  to{transform:translateX(0)}
+}
+.hero-plate{
+  position:absolute;left:0;bottom:0;z-index:2;
+  width:min(100%,58rem);
+  background:var(--plate);
+  padding:clamp(1.4rem,3.4vw,2.8rem) clamp(1.1rem,4vw,3.4rem) clamp(1.6rem,3.6vw,3rem);
+}
+.hero h1{
+  font-size:clamp(2.6rem,7.4vw,6.6rem);
+  font-weight:500;
+  max-width:11ch;
+}
+.hero .line{
+  margin-top:1rem;max-width:44ch;font-size:clamp(1.02rem,1.5vw,1.2rem);
+}
+.hero .line strong{font-weight:700}
+.btn-call{
+  display:inline-flex;align-items:center;gap:.6rem;
+  margin-top:1.5rem;
+  background:var(--control);color:#fff;text-decoration:none;
+  font-family:var(--display);font-weight:500;font-size:1.15rem;
+  padding:.85rem 1.3rem;
+  transition:background-color .2s;
+}
+.btn-call:hover{background:#245a75}
+.btn-call svg{width:20px;height:20px;flex:none}
+
+/* ---------- duct cleaning ---------- */
+.duct{
+  display:grid;grid-template-columns:1fr;
+  padding-bottom:4rem;
+}
+.duct-photo{aspect-ratio:4/3}
+.duct-copy{
+  position:relative;z-index:2;
+  background:var(--plate);
+  margin:-3rem 1rem 0;
+  padding:1.6rem 1.4rem 1.8rem;
+}
+.duct h2,.subs h2,.visit h2,.close h2{font-size:clamp(2rem,4.6vw,3.8rem)}
+.duct-copy p{margin-top:1rem;max-width:58ch}
+.duct-copy .phone-ref{font-weight:700;text-decoration:none}
+.duct-copy .phone-ref:hover{text-decoration:underline}
+
+/* ---------- subscriptions ---------- */
+.subs{
+  display:grid;grid-template-columns:1fr;
+  padding:0 0 4rem;
+}
+.subs-photo{aspect-ratio:3/4;margin-left:18%;border-left:8px solid var(--seam)}
+.subs-head{padding:2rem 1rem 0;order:-1}
+.subs-head p{margin-top:.9rem;max-width:40ch}
+.subs-plate{
+  position:relative;z-index:2;background:var(--plate);
+  margin:-5rem 1rem 0;padding:1.5rem 1.4rem 1.7rem;
+}
+.subs-plate p{max-width:58ch}
+.subs-plate p + p{margin-top:.8rem}
+.subs-plate a{font-weight:700}
+
+/* ---------- visit ---------- */
+.visit{
+  display:grid;grid-template-columns:1fr;gap:2rem;
+  padding:1rem 0 5rem;
+  overflow:hidden;
+}
+.visit-text{padding:0 1rem}
+.visit-text ol{list-style:none;margin:1.4rem 0 0;padding:0}
+.visit-text li{max-width:40ch}
+.visit-text li + li{margin-top:1.1rem}
+.visit-text li b{font-family:var(--display);font-weight:500;font-size:1.25rem;display:block;line-height:1.2}
+.visit-text .rating{margin-top:1.8rem;font-weight:500}
+.prints{position:relative;padding:0 1rem 0 0}
+.print{
+  aspect-ratio:16/10;width:78%;
+  border:8px solid var(--seam);border-left:0;
+}
+.print-a{margin-left:0}
+.print-b{margin-left:8%;margin-top:calc(-7% + 36px);position:relative;z-index:2;width:80%;border-left:8px solid var(--seam)}
+.print-c{margin-left:16%;margin-top:calc(-7% + 36px);position:relative;z-index:3;width:80%;border-left:8px solid var(--seam)}
+.print-b{margin-top:-9%}
+.print-c{margin-top:-9%}
+html.js .prints:not(.seated) .print{transform:translateX(80px)}
+.prints.seated .print{animation:seat .7s cubic-bezier(.22,.8,.3,1) both}
+
+/* ---------- close ---------- */
+.close{position:relative;padding:3rem 0 2rem;overflow:hidden}
+.close-photo{
+  aspect-ratio:1/1;width:62%;margin-left:auto;
+  border-left:8px solid var(--seam);border-bottom:8px solid var(--seam);
+}
+.close-type{
+  position:relative;z-index:2;
+  margin:-6rem 1rem 0;
+}
+.close h2{background:var(--plate);display:inline;box-decoration-break:clone;-webkit-box-decoration-break:clone;padding:.1em .3em;line-height:1.35}
+.order{
+  margin:1.6rem 0 0;background:var(--plate);
+  padding:1.3rem 1.3rem 1.4rem;max-width:34rem;
+  display:grid;grid-template-columns:auto 1fr;gap:.7rem 1.1rem;
+}
+.order dt{font-family:var(--display);font-weight:500;display:flex;align-items:center;gap:.45rem}
+.order dt svg{width:20px;height:20px}
+.order dd{margin:0}
+.order a{font-weight:700;text-decoration:none}
+.order a:hover{text-decoration:underline}
+
+.site-foot{
+  padding:2rem clamp(1rem,3vw,2.5rem) 2.4rem;
+  display:flex;flex-wrap:wrap;gap:1rem 2rem;align-items:center;
+  font-size:.95rem;
+}
+.site-foot .mark{background:var(--plate);padding:6px}
+
+/* ---------- desktop ---------- */
+@media (min-width:880px){
+  .duct,.subs,.visit{grid-template-columns:repeat(12,1fr)}
+  .duct{padding:clamp(4rem,8vw,7rem) 0 140px}
+  .duct-photo{grid-column:1/9;grid-row:1;aspect-ratio:16/11;border-right:8px solid var(--seam)}
+  .duct-copy{
+    grid-column:8/13;grid-row:1;align-self:end;
+    margin:0 clamp(1.5rem,4vw,3.5rem) 0 0;
+    transform:translateY(48px);
+    padding:2.2rem 2.2rem 2.4rem;
+  }
+  .subs{padding:0 0 6rem}
+  .subs-photo{grid-column:8/13;grid-row:1/3;margin:-64px 0 0;aspect-ratio:3/4}
+  .subs-head{grid-column:1/7;grid-row:1;padding:3rem 0 0 clamp(1.5rem,6vw,6rem);order:0;align-self:start}
+  .subs-plate{grid-column:2/9;grid-row:2;align-self:end;margin:0 0 3rem 0;padding:2rem 2.4rem 2.2rem}
+  .visit{gap:0;padding:2rem 0 7rem;align-items:start}
+  .visit-text{grid-column:1/5;padding:2rem 0 0 clamp(1.5rem,5vw,5rem)}
+  .prints{grid-column:5/13;padding:0}
+  .print{width:62%}
+  .print-b,.print-c{width:62%}
+  .close{padding:4rem 0 3rem}
+  .close-photo{position:absolute;top:0;right:0;width:40%;margin:0}
+  .close-type{margin:0;padding:clamp(5rem,10vw,9rem) 0 0 clamp(1.5rem,6vw,6rem);max-width:70rem}
+  .close h2{font-size:clamp(2.4rem,5.6vw,5rem)}
+}
+
+@media (prefers-reduced-motion:reduce){
+  .hero-photo img,.prints.seated .print{animation:none}
+  html.js .prints:not(.seated) .print{transform:none}
+  .btn-call{transition:none}
+}
+</style>
+<style>.wc-small-photo{object-fit:cover;image-rendering:auto;filter:contrast(1.04) saturate(1.05)}</style><style id="wc-motion">/* wc-motion:3 */
+html{scroll-behavior:smooth}html,body{overflow-x:clip}
+h1,h2,h3{max-width:100%;min-width:0}
+h1.wc-fitted,h2.wc-fitted,h3.wc-fitted,html:not(.wc-js) h1,html:not(.wc-js) h2,html:not(.wc-js) h3{overflow-wrap:break-word;hyphens:auto}
+.wc-bleed{width:100vw;max-width:100vw;margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw)}
+.wc-frame{overflow:hidden;position:relative}
+.wc-frame>img[data-photo-slot]{width:100%;height:100%;object-fit:cover;display:block;scale:1.12;will-change:transform}
+.wc-js .wc-frame>img.wc-kb{animation:wc-kb 22s ease-in-out infinite alternate}
+@keyframes wc-kb{from{scale:1.12}to{scale:1.22}}
+.wc-js .wc-reveal{opacity:0;transform:translate3d(0,28px,0);transition:opacity .8s ease,transform .8s cubic-bezier(.2,.7,.2,1)}
+.wc-js .wc-reveal.wc-in{opacity:1;transform:none}
+.wc-js .wc-reveal .wc-reveal{opacity:1;transform:none}
+.wc-js .wc-reveal.wc-from-left{transform:translate3d(-36px,0,0)}.wc-js .wc-reveal.wc-from-right{transform:translate3d(36px,0,0)}
+.wc-js .wc-reveal.wc-in.wc-from-left,.wc-js .wc-reveal.wc-in.wc-from-right{transform:none}
+.wc-js h1 .wc-w{display:inline-block;opacity:0;transform:translate3d(0,.45em,0);animation:wc-word .7s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes wc-word{to{opacity:1;transform:none}}
+.wc-lift{transition:transform .25s ease,box-shadow .25s ease}
+.wc-lift:hover{transform:translateY(-4px);box-shadow:0 14px 30px -12px rgba(0,0,0,.35)}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}
+.wc-frame>img[data-photo-slot]{scale:1!important;translate:none!important;animation:none!important}
+.wc-js .wc-reveal,.wc-js h1 .wc-w{opacity:1!important;transform:none!important;animation:none!important;transition:none!important}
+.wc-lift:hover{transform:none}}
+</style>
+<script>document.documentElement.classList.add('wc-js')</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-head">
+  <a href="#main" aria-label="Breathe Eazy Air Duct Cleaning LLC, home" class="mark-link">
+    <span class="mark"><img data-photo-slot="logo" data-photo-role="logo" data-photo-query="logo" src="img/logo-853071ba.jpg" alt="Breathe Eazy Air Duct Cleaning LLC logo" style="height:48px;width:auto;object-fit:contain"></span>
+  </a>
+  <a class="call-text" href="tel:+18152604741">Call (815) 260-4741</a>
+</header>
+
+<main id="main">
+  <section class="hero wc-bleed" aria-labelledby="hero-title">
+    <figure class="hero-photo ph">
+      <img data-photo-slot="hero" data-photo-query="pleated furnace filter in a return grille" src="https://lh3.googleusercontent.com/grass-cs/AABkmLet8jRGKayUSLOwwhj0iT8RP48H_xChrKxF_2Un3Lfw4WeR8k2CN2pOxzfjsLKhVcGrUm1oDn7E8FZhlPOR6BMFUZgt62uUNMQLoITYayQ0SGNfXCUgr2KlnBhmAOunUVmVFNxu=w2976-h2976-k-no" alt="Pleated furnace filter in a return grille">
+    </figure>
+    <div class="hero-plate">
+      <h1 id="hero-title">Breathe Eazy Air Duct Cleaning</h1>
+      <p class="line"><strong>Air filters made simple.</strong> Duct cleaning from our Southeast Tennessee base, and filters shipped to your door anywhere in the country.</p>
+      <a class="btn-call" href="tel:+18152604741">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"/></svg>
+        Call (815) 260-4741
+      </a>
+    </div>
+  </section>
+
+  <section class="duct" aria-labelledby="duct-title">
+    <figure class="duct-photo ph">
+      <img data-photo-slot="duct" data-photo-query="open residential air duct before cleaning" src="img/duct-83d91ec8.jpg" alt="Open residential air duct before cleaning">
+    </figure>
+    <div class="duct-copy">
+      <h2 id="duct-title">The metal the filter never reaches</h2>
+      <p>A filter guards the return. The trunk line and the runs past it still collect what gets by. Residential air duct cleaning resets that path through the house, so the next filter starts on clean metal.</p>
+      <p>Southeast Tennessee homes: call <a class="phone-ref" href="tel:+18152604741">(815) 260-4741</a> to set up a cleaning.</p>
+    </div>
+  </section>
+
+  <section class="subs" aria-labelledby="subs-title">
+    <figure class="subs-photo ph">
+      <img class="wc-small-photo" data-photo-slot="subscriptions" data-photo-query="stack of pleated HVAC furnace filters" src="img/subscriptions-3d5d5de4.jpg" alt="Stack of pleated HVAC furnace filters">
+    </figure>
+    <div class="subs-head">
+      <h2 id="subs-title">Filters that we remember for you</h2>
+      <p>Set your schedule, and we take care of the rest.</p>
+    </div>
+    <div class="subs-plate">
+      <p>Subscribe and pleated furnace and HVAC filters arrive at your home on a regular interval, which keeps your system healthy without another errand on the list. MERV 10 filters come in 1 inch and 2 inch depths, shipped nationwide.</p>
+      <p>See the <a href="https://breatheeasy.us/pages/our-plans">subscription plans</a> or browse the <a href="https://breatheeasy.us/collections/all">filter catalog</a> at breatheeasy.us. For bulk orders, contact the shop.</p>
+    </div>
+  </section>
+
+  <section class="visit" aria-labelledby="visit-title">
+    <div class="visit-text">
+      <h2 id="visit-title">How a cleaning goes</h2>
+      <ol>
+        <li><b>Hose at the register</b>Equipment connects to the system at the floor registers and returns.</li>
+        <li><b>Dust out of the runs</b>Buildup comes out of the ducts instead of circulating back into the rooms.</li>
+        <li><b>Clean grille, fresh filter</b>The return in the hallway goes back clean, ready for the next filter on schedule.</li>
+      </ol>
+      <p class="rating">Rated 4.4 on Google from 28 reviews.</p>
+    </div>
+    <div class="prints" id="prints">
+      <figure class="print print-a ph">
+        <img data-photo-slot="visit-a" data-photo-query="vacuum hose at a floor register" src="img/visit-a-cd325a91.jpg" alt="Vacuum hose at a floor register">
+      </figure>
+      <figure class="print print-b ph">
+        <img data-photo-slot="visit-b" data-photo-query="dust removed from an air duct" src="img/visit-b-e4edd48f.jpg" alt="Dust removed from an air duct">
+      </figure>
+      <figure class="print print-c ph">
+        <img class="wc-small-photo" data-photo-slot="visit-c" data-photo-query="clean return air grille in a home hallway" src="img/visit-c-13f020ac.jpg" alt="Clean return air grille in a home hallway">
+      </figure>
+    </div>
+  </section>
+
+  <section class="close" aria-labelledby="close-title">
+    <figure class="close-photo ph">
+      <img data-photo-slot="contact" data-photo-query="floor air register in a home" src="img/contact-63841d8d.jpg" alt="Floor air register in a home">
+    </figure>
+    <div class="close-type">
+      <h2 id="close-title">Book a duct cleaning or start a filter plan</h2>
+      <dl class="order">
+        <dt>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"/></svg>
+          Phone
+        </dt>
+        <dd><a href="tel:+18152604741">(815) 260-4741</a></dd>
+        <dt>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418"/></svg>
+          Online
+        </dt>
+        <dd><a href="http://breatheeasy.us">breatheeasy.us</a></dd>
+        <dt>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"/></svg>
+          Area
+        </dt>
+        <dd>Duct cleaning in Southeast Tennessee. Filters ship nationwide.</dd>
+      </dl>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <span class="mark"><img data-photo-slot="logo" data-photo-role="logo" data-photo-query="logo" src="img/logo-853071ba.jpg" alt="Breathe Eazy Air Duct Cleaning LLC logo" style="height:48px;width:auto;object-fit:contain"></span>
+  <p>&copy; 2026 Breathe Eazy Air Duct Cleaning LLC</p>
+  <p>Website sample by Wild Card Creative Co</p>
+<p class="wc-photo-credits wc-gbp-credit" style="font-size:.75rem;opacity:.9;margin:1rem 0 0">Photos: Breathe Eazy Air Duct Cleaning LLC on Google Business Profile.</p></footer>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var prints = document.getElementById('prints');
+  if (reduce || !prints || !('IntersectionObserver' in window)) return;
+  document.documentElement.classList.add('js');
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if (e.isIntersecting){
+        prints.classList.add('seated');
+        io.disconnect();
+      }
+    });
+  }, {threshold:0.25});
+  io.observe(prints);
+})();
+</script>
+<script id="wc-motion-js">/* wc-motion:3 */
+(function(){var d=document,rm=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+var imgs=[].slice.call(d.querySelectorAll('img[data-photo-slot]'));
+imgs.forEach(function(im,i){var p=im.parentElement;if(!p||p===d.body)return;p.classList.add('wc-frame');im.classList.add('wc-kb');im.style.animationDelay=(-(i*3.7)%22)+'s';});
+var h=d.querySelector('h1');if(h&&!rm&&!h.querySelector('.wc-w')){var n=0;[].slice.call(h.childNodes).forEach(function(t){if(t.nodeType!==3||!t.textContent.trim())return;var f=d.createDocumentFragment();t.textContent.split(/(\s+)/).forEach(function(s){if(!s)return;if(/^\s+$/.test(s)){f.appendChild(d.createTextNode(s));return;}var sp=d.createElement('span');sp.className='wc-w';sp.textContent=s;sp.style.animationDelay=(0.15+0.07*n++)+'s';f.appendChild(sp);});h.replaceChild(f,t);});}
+var hs=[].slice.call(d.querySelectorAll('h1,h2,h3'));
+function unblow(h){var e=h;while(e&&e.parentElement&&e!==d.body){var pd=getComputedStyle(e.parentElement).display;if(/grid|flex/.test(pd))e.style.minWidth='0';e=e.parentElement;}}hs.forEach(unblow);
+function fit(){hs.forEach(function(h){h.classList.remove('wc-fitted');h.style.fontSize='';var s=parseFloat(getComputedStyle(h).fontSize)||16,min=Math.max(15,s*0.42),n=0;while(h.scrollWidth>h.clientWidth+1&&s>min&&n++<40){s*=0.94;h.style.fontSize=s.toFixed(1)+'px';}h.classList.add('wc-fitted');});}
+fit();if(d.fonts&&d.fonts.ready)d.fonts.ready.then(fit);var ft;addEventListener('resize',function(){clearTimeout(ft);ft=setTimeout(fit,150)});
+var sel='.wc-reveal';
+var els=[].slice.call(d.querySelectorAll(sel)).filter(function(e){return !e.closest('header')&&!e.closest('h1')&&!(e.parentElement&&e.parentElement.closest('.wc-reveal'));});
+els.forEach(function(e,i){e.classList.add('wc-reveal');if(!/wc-from-/.test(e.className)){var r=e.getBoundingClientRect();if(r.width&&r.width<innerWidth*0.7)e.classList.add(r.left+r.width/2<innerWidth/2?'wc-from-left':'wc-from-right');}});
+if(rm||!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('wc-in')});return;}
+var io=new IntersectionObserver(function(es){es.forEach(function(x){if(x.isIntersecting){x.target.style.transitionDelay=(x.target.dataset.wcDelay||0)+'ms';x.target.classList.add('wc-in');io.unobserve(x.target);}})},{rootMargin:'0px 0px -8% 0px',threshold:0.12});
+els.forEach(function(e,i){e.dataset.wcDelay=String((i%3)*90);io.observe(e)});
+function sweep(){els.forEach(function(e){if(!e.classList.contains('wc-in')&&e.getBoundingClientRect().top<innerHeight)e.classList.add('wc-in')})}setTimeout(sweep,2500);var sw;addEventListener('scroll',function(){clearTimeout(sw);sw=setTimeout(sweep,400)},{passive:true});
+var vis=new Set(),tick=false;var io2=new IntersectionObserver(function(es){es.forEach(function(x){x.isIntersecting?vis.add(x.target):vis.delete(x.target)})});imgs.forEach(function(im){io2.observe(im.parentElement)});
+function par(){tick=false;var vh=innerHeight;vis.forEach(function(f){var r=f.getBoundingClientRect();var c=(r.top+r.height/2-vh/2)/vh;var im=f.querySelector('img[data-photo-slot]');if(im)im.style.translate='0 '+(Math.max(-1,Math.min(1,c))*-22).toFixed(1)+'px';})}
+addEventListener('scroll',function(){if(!tick){tick=true;requestAnimationFrame(par)}},{passive:true});par();})();
+</script>
+</body>
+</html>
